@@ -1,0 +1,32 @@
+GIT
+  remote: https://github.com/brendanthomas1/prawn
+  revision: 935555fb60f608c52cb06b9a74131ffc49ed269d
+  branch: master
+  specs:
+    prawn (2.1.1)
+      pdf-core (~> 0.6.1)
+      ttfunk (~> 1.4.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pdf-core (0.6.1)
+    rack (1.6.5)
+    rack-protection (1.5.3)
+      rack
+    sinatra (1.4.8)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    tilt (2.0.6)
+    ttfunk (1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  prawn!
+  sinatra
+
+BUNDLED WITH
+   1.13.6
