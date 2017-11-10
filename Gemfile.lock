@@ -1,18 +1,19 @@
 GIT
-  remote: https://github.com/brendanthomas1/prawn
-  revision: 935555fb60f608c52cb06b9a74131ffc49ed269d
-  branch: master
+  remote: https://github.com/brendanthomas1/prawn_printer
+  revision: 1765032f6eada73ce9c11b735b9a67f5890d9766
   specs:
-    prawn (2.1.1)
-      pdf-core (~> 0.6.1)
-      ttfunk (~> 1.4.0)
+    prawn_printer (0.1.0)
+      prawn
 
 GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.1)
     method_source (0.8.2)
-    pdf-core (0.6.1)
+    pdf-core (0.7.0)
+    prawn (2.2.2)
+      pdf-core (~> 0.7.0)
+      ttfunk (~> 1.5)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -26,15 +27,15 @@ GEM
       tilt (>= 1.3, < 3)
     slop (3.6.0)
     tilt (2.0.6)
-    ttfunk (1.4.0)
+    ttfunk (1.5.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  prawn!
+  prawn_printer!
   pry
   sinatra
 
 BUNDLED WITH
-   1.13.6
+   1.14.6
